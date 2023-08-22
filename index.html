@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create a Animated Flower</title>
+    <style>
+        .parent{
+            width: 500px;
+            height: 500px;
+            margin: 150px auto;
+            position: relative;
+            animation: flow 10s linear 0s infinite;
+        }
+        @keyframes flow{
+            0%{
+                transform: rotateZ(0deg);
+            }
+            100%{
+                transform: rotateZ(359deg);
+            }
+        }
+        .parent > div{
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+        .common{
+            width: 250px;
+            height: 250px;
+            opacity: 0.7;
+            transform-origin: right bottom;
+            border-bottom-left-radius: 250PX;
+            border-top-right-radius: 250px;
+        }
+        .leaf1{
+            background-color: aqua;
+            transform: rotateZ(0deg);
+        }
+        .leaf2{
+            background-color: rgb(22, 180, 38);
+            transform: rotateZ(11.25deg);
+        }
+        .leaf3{
+            background-color: rgb(183, 125, 39);
+            transform: rotateZ(22.5deg);
+        }
+        .leaf4{
+            background-color: rgb(225, 15, 71);
+            transform: rotateZ(33.66deg);
+        }
+        .leaf5{
+            background-color: rgb(14, 170, 14);
+            transform: rotateZ(45deg);
+        }
+        .leaf6{
+            background-color: rgb(78, 16, 170);
+            transform: rotateZ(56.25deg);
+        }
+        .leaf7{
+            background-color: rgb(138, 141, 165);
+            transform: rotateZ(67.5deg);
+        }
+        .leaf8{
+            background-color: rgb(156, 220, 28);
+            transform: rotateZ(78.75deg);
+        }
+        .leaf9{
+            background-color: rgb(65, 66, 61);
+            transform: rotateZ(90deg);
+        }
+        .leaf10{
+            background-color: rgb(187, 13, 155);
+            transform: rotateZ(101.25deg);
+        }
+        .leaf11{
+            background-color: rgb(46, 40, 47);
+            transform: rotateZ(112.5deg);
+        }
+        .leaf12{
+            background-color: rgb(119, 99, 128);
+            transform: rotateZ(123.75deg);
+        }
+        .leaf13{
+            background-color: rgb(72, 114, 75);
+            transform: rotateZ(135deg);
+        }
+
+
+         .leaf14{
+            background-color: rgb(132, 134, 113);
+            transform: rotateZ(146.25deg);
+        }
+        .leaf15{
+            background-color: rgb(142, 72, 128);
+            transform: rotateZ(157.5deg);
+        }
+        .leaf16{
+            background-color: aqua;
+            transform: rotateZ(168.75deg);
+        }
+        .leaf17{
+            background-color: rgb(182, 58, 70);
+            transform: rotateZ(180.75deg);
+        }
+        .leaf18{
+            background-color: rgb(105, 49, 155);
+            transform: rotateZ(191.25.75deg);
+        }
+        .leaf19{
+            background-color: rgb(206, 149, 181);
+            transform: rotateZ(202.5deg);
+        }
+        .leaf20{
+            background-color: aqua;
+            transform: rotateZ(213.75deg);
+        }
+        .leaf21{
+            background-color: rgb(127, 31, 60);
+            transform: rotateZ(225deg);
+        }
+        .leaf22{
+            background-color: rgb(161, 94, 145);
+            transform: rotateZ(236deg);
+        }
+        .leaf23{
+            background-color: rgb(98, 30, 87);
+            transform: rotateZ(247.5deg);
+        }
+        .leaf24{
+            background-color: rgb(160, 188, 17);
+            transform: rotateZ(258.75deg);
+        }
+        .leaf25{
+            background-color: rgb(165, 98, 44);
+            transform: rotateZ(270deg);
+        }
+        .leaf26{
+            background-color: rgb(27, 132, 28);
+            transform: rotateZ(281.25deg);
+        }
+        .leaf27{
+            background-color: rgb(87, 97, 32);
+            transform: rotateZ(292.5deg);
+        }
+        .leaf28{
+            background-color: rgb(63, 35, 155);
+            transform: rotateZ(303.75deg);
+        }
+        .leaf29{
+            background-color: rgb(62, 14, 62);
+            transform: rotateZ(315deg);
+        }
+        .leaf30{
+            background-color: rgb(80, 28, 51);
+            transform: rotateZ(326.25deg);
+        }
+        .leaf31{
+            background-color: rgb(117, 126, 163);
+            transform: rotateZ(337.5deg);
+        }
+        .leaf32{
+            background-color: rgb(70, 16, 152);
+            transform: rotateZ(348.75deg);
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="common leaf1"></div>
+        <div class="common leaf2"></div>
+        <div class="common leaf3"></div>
+        <div class="common leaf4"></div>
+        <div class="common leaf5"></div>
+        <div class="common leaf6"></div>
+        <div class="common leaf7"></div>
+
+        <div class="common leaf8"></div>
+        <div class="common leaf9"></div>
+        <div class="common leaf10"></div>
+        <div class="common leaf11"></div>
+        <div class="common leaf12"></div>
+        <div class="common leaf13"></div>
+        <div class="common leaf14"></div>
+        <div class="common leaf15"></div>
+        <div class="common leaf16"></div>
+        <div class="common leaf17"></div>
+        <div class="common leaf18"></div>
+        <div class="common leaf19"></div>
+        <div class="common leaf20"></div>
+        <div class="common leaf21"></div>
+        <div class="common leaf22"></div>
+        <div class="common leaf23"></div>
+        <div class="common leaf24"></div>
+        <div class="common leaf25"></div>
+        <div class="common leaf26"></div>
+        <div class="common leaf27"></div>
+        <div class="common leaf28"></div>
+        <div class="common leaf29"></div>
+        <div class="common leaf30"></div>
+        <div class="common leaf31"></div>
+        <div class="common leaf32"></div>
+        <!--<div class="common leaf20"></div>
+        <div class="common leaf20"></div>
+        <div class="common leaf20"></div> -->
+
+    </div>
+</body>
+</html>
